@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i;
+    char c[1000];
+    gets(c);
+    for(i=0; i<strlen(c); i++)
+    {
+        if(c[i]=='a'||c[i]=='A')
+            printf("a");
+        if(c[i]=='b'||c[i]=='B')
+            printf("c");
+        if(c[i]=='c'||c[i]=='C')
+            printf("z");
+        if(c[i]=='d'||c[i]=='D')
+            printf("a");
+        if(c[i]=='e'||c[i]=='E')
+            printf("q");
+        if(c[i]=='f'||c[i]=='F')
+            printf("s");
+        if(c[i]=='g'||c[i]=='G')
+            printf("d");
+        if(c[i]=='h'||c[i]=='H')
+            printf("f");
+        if(c[i]=='i'||c[i]=='I')
+            printf("y");
+        if(c[i]=='j'||c[i]=='J')
+            printf("g");
+        if(c[i]=='k'||c[i]=='K')
+            printf("h");
+        if(c[i]=='l'||c[i]=='L')
+            printf("j");
+        if(c[i]=='m'||c[i]=='M')
+            printf("b");
+        if(c[i]=='n'||c[i]=='N')
+            printf("v");
+        if(c[i]=='o'||c[i]=='O')
+            printf("u");
+        if(c[i]=='p'||c[i]=='P')
+            printf("i");
+        if(c[i]=='q'||c[i]=='Q')
+            printf("q");
+        if(c[i]=='r'||c[i]=='R')
+            printf("w");
+        if(c[i]=='s'||c[i]=='S')
+            printf("s");
+        if(c[i]=='t'||c[i]=='T')
+            printf("e");
+        if(c[i]=='u'||c[i]=='U')
+            printf("t");
+        if(c[i]=='v'||c[i]=='v')
+            printf("x");
+        if(c[i]=='w'||c[i]=='W')
+            printf("w");
+        if(c[i]=='x'||c[i]=='X')
+            printf("x");
+        if(c[i]=='y'||c[i]=='Y')
+            printf("r");
+        if(c[i]=='z'||c[i]=='z')
+            printf("z");
+        if(c[i]==' ')
+            printf(" ");
+        if(c[i]=='['||c[i]=='{')
+            printf("o");
+        if(c[i]==']'||c[i]=='}')
+            printf("p");
+        if(c[i]==';'||c[i]==':')
+            printf("k");
+        if(c[i]==39||c[i]==34)
+            printf("l");
+        if(c[i]==','||c[i]=='<')
+            printf("n");
+        if(c[i]=='.'||c[i]=='>')
+            printf("m");
+        if(c[i]=='/'||c[i]=='?')
+            printf(",");
+    }
+    printf("\n");
+    return 0;
+}
